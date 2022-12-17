@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Cambria;
+}
+
+header {
+	
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.logo {
+	font-size: 2em;
+	color: #555;
+	cursor: default;
+}
+
+.logo span {
+	color: #D2691E;
+}
+
+.navigation {
+	font-size: 1em;
+	color: brown;
+	text-decoration: none;
+	margin-right: 40px;
+	font-weight: 500;
+	transition: .3s;
+}
+
+.navigation a:hover {
+	color: #D2691E;
+}
+
+.btn-talk {
+	color: #fff;
+	text-decoration: none;
+	padding: 8px 35px;
+	background: #D2691E;
+	border-radius: 10px;
+	border: 2px solid #D2691E;
+	font-weight: 500;
+	transition: .3s;
+}
+
+.btn-talk:hover {
+	color: #D2691E;
+	background: transparent;
+}
+
+.home {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: url(img/image.jpg);
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	padding: 50px 100px;
+}
+
+.content {
+	color: #555;
+}
+
+.content h2 {
+	font-size: 3em;
+}
+
+.content h2 span {
+	color: #D2691E;
+}
+
+.content h3 span {
+	color: #D2691E;
+	font-size: 140%;
+}
+
+.content h4 {
+	font-size: 150%;
+}
+
+.content p {
+	font-size: 120%;
+}
+
+.about {
+	padding: 50px 100px;
+}
+
+.content li {
+	font-size: 140%;
+	line-height: 170%;
+}
+
+.content li span {
+	color: #D2691E;
+	text-align: center;
+}
+
+.portfolio {
+	padding: 50px 100px;
+}
+
+.portfolio .content p {
+	font-size: 120%;
+	text-align: center;
+}
+
+.portfolio p {
+	font-size: 120%;
+	text-align: center;
+}
+
+.portfolio .content p span {
+	color: #D2691E;
+	text-align: center;
+}
+
+.column {
+	  float: left;
+	  width: 50%;
+	  height: 50%;
+	  padding: 10px;
+	}
+
+.img {
+    border-radius: 50%;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    float: left;
+     
+
+  }
+  .p {
+    color:black;
+    padding-left: 10px;
+    font-size: x-large;
+}
+
+.contact {
+	padding: 50px 100px;
+}
+
+.content a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background: #D2691E;
+	border-radius: 50%;
+	margin-right: 22px;
+	text-align: center;
+	line-height: 35px;
+	border: 1px solid #fff;
+	outline: 2px solid #D2691E;
+	transition: .3s;
+}
+
+.content a i {
+	color: #fff;
+}
+
+.content a:hover {
+	transform: translateY(-5px);
+}
+
